@@ -6,6 +6,6 @@
 #include <QtXml/QDomDocument>
 
 void XML_to_JSON(const QDomDocument &xml, QJsonDocument &json);
-void JSON_to_XML(const QJsonValue &val, const QXmlStreamWriter &writer);
+void JSON_to_XML(QJsonValue &val, QXmlStreamWriter &writer);
 
 #endif // XML_JSON_CONVERTER_H
